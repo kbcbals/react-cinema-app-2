@@ -319,7 +319,7 @@ workflows:
       #         only:
       #           - develop
       #           - staging
-      #           - master
+      #           - master      
       - hold:
           type: approval
           requires:
