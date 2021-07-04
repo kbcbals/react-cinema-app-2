@@ -4,8 +4,8 @@ provider "aws" {
 #added a comment
 terraform {
   backend "s3" {
-    bucket  = "app-cinema-tfm-state"
-    key     = "app-cinema.tfmstate"
+    bucket  = "remote-app-cinema-tf-state"
+    key     = "remote-app-cinema.tfstate"
     region  = "eu-west-2"
     encrypt = true
   }
