@@ -1,7 +1,7 @@
 provider "aws" {
   region = "eu-west-2"
 }
-#added a comment
+#added a comment for testing
 terraform {
   backend "s3" {
     bucket  = "remote-app-cinema-tf-state"
